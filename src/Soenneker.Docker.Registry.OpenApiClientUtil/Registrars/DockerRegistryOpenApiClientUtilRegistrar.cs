@@ -13,6 +13,8 @@ public static class DockerRegistryOpenApiClientUtilRegistrar
     /// <summary>
     /// Adds <see cref="DockerRegistryOpenApiClientUtil"/> as a singleton service. <para/>
     /// </summary>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddDockerRegistryOpenApiClientUtilAsSingleton(this IServiceCollection services)
     {
         services.AddDockerRegistryOpenApiHttpClientAsSingleton()
@@ -24,6 +26,8 @@ public static class DockerRegistryOpenApiClientUtilRegistrar
     /// <summary>
     /// Adds <see cref="DockerRegistryOpenApiClientUtil"/> as a scoped service. <para/>
     /// </summary>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddDockerRegistryOpenApiClientUtilAsScoped(this IServiceCollection services)
     {
         services.AddDockerRegistryOpenApiHttpClientAsSingleton()
