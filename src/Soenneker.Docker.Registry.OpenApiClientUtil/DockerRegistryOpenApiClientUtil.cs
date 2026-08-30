@@ -14,7 +14,6 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.Docker.Registry.OpenApiClientUtil;
 
-/// <inheritdoc cref="IDockerRegistryOpenApiClientUtil"/>
 public sealed class DockerRegistryOpenApiClientUtil : IDockerRegistryOpenApiClientUtil
 {
     private readonly AsyncSingleton<DockerRegistryOpenApiClient> _client;
