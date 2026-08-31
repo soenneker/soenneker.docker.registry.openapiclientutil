@@ -5,7 +5,7 @@
 
 # Soenneker.Docker.Registry.OpenApiClientUtil
 
-Provides a dependency-injection-friendly, cached instance of the generated Docker Registry API client.
+Provides a lazily created, cached Docker Registry client backed by the configured Registry HTTP provider.
 
 ## Installation
 
