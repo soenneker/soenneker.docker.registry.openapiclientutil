@@ -46,7 +46,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Docker.Registry.HttpClients" Version="11.0.91" />
+        <PackageReference Include="Soenneker.Docker.Registry.HttpClients" Version="11.0.92" />
         <PackageReference Include="Soenneker.Docker.Registry.OpenApiClient" Version="11.0.37" />
     </ItemGroup>
 </Project>
